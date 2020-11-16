@@ -1,0 +1,46 @@
+name: HCRC
+type: theme
+base theme: Bootstrap Mint
+#description: 'Bootstrap Mint is a fully responsive <a href="https://www.drupal.org/8" target="_blank">Drupal 8</a> theme built on Bootstrap 3 framework : Designed & developed by <a href="https://www.drupal.org/user/1111950" target="_blank">Binu Varghese</a>. For professional support and customisation, reach us @ <a href="http://myndsets.com" target="_blank">myndsets</a>.'
+# core: 8.x
+
+#Libraries
+libraries:
+  - hcrc/custom-styles
+  #- bootstrap_mint/googlefonts-exo2
+  #- bootstrap_mint/font-awesome
+  #- bootstrap_mint/smart-menus
+  #- bootstrap_mint/global-components
+  #- bootstrap_mint/maintenance-page
+
+#Regions
+regions:
+  sliding_header_one: 'Sliding Header Left'
+  sliding_header_two: 'Sliding Header Right'
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  slideshow: 'Slideshow'
+  search: 'Search'
+  promo: 'Promotion Banner'
+  highlighted: 'Highlighted'
+  help: 'Help' 
+  topwidget_left: 'Top Widget - Left'
+  topwidget_middle: 'Top Widget - Middle'
+  topwidget_right: 'Top Widget - Right'
+  content_top: 'Content Top'
+  breadcrumb: 'Breadcrumbs'
+  page_title: 'Page Title'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  content_bottom: 'Content Bottom'
+  footer_top_one: 'Footer Top Widget - One'
+  footer_top_two: 'Footer Top Widget - Two'
+  footer_top_three: 'Footer Top Widget - Three'
+  footer_top_four: 'Footer Top Widget - Four'
+  footer: 'Footer'
+  footer_menu: 'Footer Menu'
+  optional_blocks: 'Optional Blocks'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+
