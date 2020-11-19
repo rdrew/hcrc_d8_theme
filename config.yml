@@ -6,10 +6,10 @@ SITE:
 PORT: 8000
 BSREWRITE:
     Css:
-        Match: "/sites/islandimagined.ca/themes/ia_islandimagined/css/"
+        Match: "/themes/hcrc_d8_theme/css/"
         Replace: "/css/"
     Js:
-        Match: "/sites/islandimagined.ca/themes/ia_islandimagined/js/"
+        Match: "/themes/hcrc_d8_theme/js/"
         Replace: "/js/"
 PATHS:
     Watch:
@@ -17,18 +17,18 @@ PATHS:
       - ./css/*.css
       - ./js/*.js
     Scss:
-        Dir: sass
+        Dir: css/src
         #FileName: app.scss
         Libraries:
-            - css/libraries/guff
-            - css/libraries/typeplate
+            #- css/libraries/guff
+            #- css/libraries/typeplate
     Css:
         Dir: css
         #FileName: app.css
     Js:
         Src: ./js/src/*.js
         Dest: js
-        FileName: 'ia-islandimagined.behaviors.js'
+        FileName: 'hcrc.js'
     Img:
         Src: img/src
         Dest: img

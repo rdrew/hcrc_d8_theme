@@ -1,4 +1,6 @@
 custom-styles:
   css:
-    component:
-      css/app.css: {}
+    theme:
+      css/hcrc.css: {}
+  js:
+    js/hcrc.css: {}
