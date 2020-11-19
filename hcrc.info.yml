@@ -1,8 +1,7 @@
 name: HCRC
 type: theme
-base theme: Bootstrap Mint
-#description: 'Bootstrap Mint is a fully responsive <a href="https://www.drupal.org/8" target="_blank">Drupal 8</a> theme built on Bootstrap 3 framework : Designed & developed by <a href="https://www.drupal.org/user/1111950" target="_blank">Binu Varghese</a>. For professional support and customisation, reach us @ <a href="http://myndsets.com" target="_blank">myndsets</a>.'
-# core: 8.x
+base theme: bootstrap_mint
+core: 8.x
 
 #Libraries
 libraries:
