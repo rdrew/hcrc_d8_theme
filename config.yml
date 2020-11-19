@@ -1,8 +1,8 @@
 SITE:
     Local: '127.0.0.1:8888'
     Remote:
-        Url: 'https://islandimagined.ca'
-        Path: user
+        Url: 'https://hcr.researchspaces.ca/'
+        Path: '/user'
 PORT: 8000
 BSREWRITE:
     Css:
@@ -20,7 +20,7 @@ PATHS:
         Dir: css/src
         #FileName: app.scss
         Libraries:
-            #- css/libraries/guff
+            - node_modules/gerillass/scss
             #- css/libraries/typeplate
     Css:
         Dir: css

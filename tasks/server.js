@@ -12,6 +12,7 @@ var gulp = require('gulp');
 gulp.task('server', function() {
   server.init({
     proxy: SITE.Remote.Url,
+    startPath: SITE.Remote.Path,
     serveStatic: ['.'],
     //files: ['./css/*.css', './js/*.js'],
     files: PATHS.Watch,

@@ -1,1 +1,1 @@
-{"version":3,"file":"hcrc.css","sources":["hcrc.scss"],"sourcesContent":["body {\nbackground: #000;}\n"],"names":[],"mappings":"AAAA,AAAA,IAAI,CAAC;EACL,UAAU,EAAE,IAAI,GAAE"}
+{"version":3,"file":"hcrc.css","sources":["hcrc.scss"],"sourcesContent":["//@format\nbody {\n  //background: #000;\n}\n.container {\nmax-width:1170px;}\n"],"names":[],"mappings":"AAIA,AAAA,UAAU,CAAC;EACX,SAAS,EAAC,MAAM,GAAE"}

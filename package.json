@@ -13,6 +13,7 @@
     "browser-sync": "^2.24.7",
     "bs-rewrite-rules": "^2.1.2",
     "fs": "0.0.1-security",
+    "gerillass": "^1.1.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-cache": "^1.0.2",
