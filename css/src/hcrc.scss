@@ -1,7 +1,3 @@
 //@format
-body {
-  //background: #000;
-}
-.container {
-  max-width: 1170px;
-}
+@import 'components/type';
+@import 'modularscale';

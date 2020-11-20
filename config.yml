@@ -21,6 +21,7 @@ PATHS:
         #FileName: app.scss
         Libraries:
             - node_modules/gerillass/scss
+            - node_modules/modularscale-sass/stylesheets
             #- css/libraries/typeplate
     Css:
         Dir: css
