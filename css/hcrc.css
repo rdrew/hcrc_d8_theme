@@ -48,4 +48,30 @@ h4,
 .site-branding__name a {
   font-size: 1.3em; }
 
+.upei-logo {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 75px;
+  background-image: url("../images/upei-green.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .upei-logo a {
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    text-indent: 100%; }
+    .upei-logo a::after {
+      content: "";
+      position: absolute;
+      pointer-events: auto;
+      background-color: rgba(0, 0, 0, 0);
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1; }
+
 /*# sourceMappingURL=hcrc.css.map */
