@@ -23,7 +23,7 @@ h1,
   font-size: 2.197em;
   color: #333; }
 
-h2,
+h2, .field--name-field-sub-heading,
 .h2 {
   font-size: 1.69em;
   color: #333; }
@@ -38,11 +38,15 @@ h4,
   font-size: 1.3em;
   color: #333; }
 
-.menu-base-theme a,
+.menu-base-theme a, .field--name-field-project-menu-item a,
 .menu-base-theme a:hover,
+.field--name-field-project-menu-item a:hover,
 .menu-base-theme a:focus,
+.field--name-field-project-menu-item a:focus,
 .menu-base-theme a:active,
-.menu-base-theme a.highlighted {
+.field--name-field-project-menu-item a:active,
+.menu-base-theme a.highlighted,
+.field--name-field-project-menu-item a.highlighted {
   font-weight: 400; }
 
 .site-branding__name a {
@@ -73,5 +77,23 @@ h4,
       bottom: 0;
       left: 0;
       z-index: 1; }
+
+.field--name-field-project-banner-image img {
+  width: 100%; }
+
+.field--name-field-project-menu-item {
+  display: flex;
+  background: #1abc9c;
+  justify-content: space-around; }
+  .field--name-field-project-menu-item .field__item {
+    margin: 1rem;
+    padding: 1rem; }
+  .field--name-field-project-menu-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px; }
+
+.field--name-field-sub-heading {
+  margin: 2rem 0; }
 
 /*# sourceMappingURL=hcrc.css.map */

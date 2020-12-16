@@ -1,0 +1,27 @@
+//@format
+.field--name-field-project-banner-image {
+  img {
+    width: 100%;
+  }
+}
+.field--name-field-project-menu-item {
+  display: flex;
+  background: #1abc9c;
+  justify-content: space-around;
+  @extend .menu-base-theme;
+  .field__item {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  a {
+    //background: #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+}
+
+.field--name-field-sub-heading {
+  margin: 2rem 0;
+  @extend h2;
+}
